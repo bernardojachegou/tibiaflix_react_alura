@@ -7,7 +7,7 @@ function Menu() {
     return (
         <nav className="Menu">
             <a href="/">
-                <img className="Logo" src={Logo} alt="Logo da AluraFlix" />
+                <img className="Logo" src={Logo} alt="Logo do TibiaFlix" />
             </a>
             <Button as="a" className="ButtonLink" href="/">
                 Novo vídeo
