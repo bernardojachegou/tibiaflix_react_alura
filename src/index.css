@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 :root {
   --primary: #fc9803;
   --black: #000000;
@@ -9,11 +14,6 @@
   --backEnd: #ffff00;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -21,4 +21,10 @@ html, body {
 
 a {
   color: inherit;
+}
+
+#root {
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
