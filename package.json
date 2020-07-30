@@ -16,6 +16,8 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
+    "server": "json-server --watch db.json --port 8080",
+    "dev": "concurrently \"react-scripts start\" \"npm run server\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",

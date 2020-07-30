@@ -2,7 +2,19 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Front end",
+            "nome": "Frontend",
+            "descricao": "Minha categoria",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Backend",
+            "descricao": "Minha categoria",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 3,
+            "nome": "Fullstack",
             "descricao": "Minha categoria",
             "cor": "#cbd1ff"
         }

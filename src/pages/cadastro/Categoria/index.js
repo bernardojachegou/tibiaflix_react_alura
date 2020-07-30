@@ -1,5 +1,5 @@
 /* eslint-disable linebreak-style */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Template from '../../../components/Template';
 import FormField from '../../../components/FormField';
@@ -37,6 +37,17 @@ function CadastroCategoria() {
     ]);
     setValues(defaultValues);
   }
+
+  useEffect(() => {
+    const UrlTop = 'http://localhost:8080/categorias';
+    fetch(UrlTop)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, []);
 
   return (
     <Template>
