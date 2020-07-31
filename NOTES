@@ -127,3 +127,12 @@
 	2.3 Configuração adicional do padding
 
 3. Configuração da página de novo video
+	3.1 Reutilização de components e Hooks
+	3.2 Elaboração da lógica (manipulação de rota)
+	3.3 Redirecionamento com useHistory
+	3.4 Lógica da criação de Vídeo
+
+4. Criação do datafield
+	4.1 Lógica para funcionamento
+	4.2 Utilização de métodos do array
+	4.3 Lógica para mostrar sugestão

@@ -49,7 +49,6 @@ function CadastroCategoria() {
         handleSubmit
       }
       >
-
         <FormField
           label="Nome da Categoria"
           type="text"
