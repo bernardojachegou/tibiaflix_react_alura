@@ -5,14 +5,7 @@ import Template from '../../../components/Template';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
-function CadastroCategoria() {
-  const defaultValues = {
-    nome: '',
-    descricao: '',
-    cor: '',
-  };
-
-  const [categorias, setCategorias] = useState([]);
+function useForm(defaultValues) {
   const [valores, setValues] = useState(defaultValues);
 
   function setValue(chave, valor) {
@@ -29,13 +22,35 @@ function CadastroCategoria() {
     );
   }
 
+  function clearForm() {
+    setValues(defaultValues);
+  }
+
+  return {
+    valores,
+    handleChange,
+    clearForm,
+  };
+}
+
+function CadastroCategoria() {
+  const defaultValues = {
+    titulo: '',
+    descricao: '',
+    cor: '',
+  };
+
+  const { handleChange, valores, clearForm } = useForm(defaultValues);
+
+  const [categorias, setCategorias] = useState([]);
+
   function handleSubmit(event) {
     event.preventDefault();
     setCategorias([
       ...categorias,
       valores,
     ]);
-    setValues(defaultValues);
+    clearForm(defaultValues);
   }
 
   useEffect(() => {
@@ -54,19 +69,19 @@ function CadastroCategoria() {
       <h1>
         Cadastro de categoria:
         {' '}
-        {valores.nome}
+        {valores.titulo}
       </h1>
 
       <form onSubmit={
-                handleSubmit
-        }
+        handleSubmit
+      }
       >
 
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
-          value={valores.nome}
+          name="titulo"
+          value={valores.titulo}
           onChange={handleChange}
         />
 
@@ -91,8 +106,8 @@ function CadastroCategoria() {
 
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

@@ -2,21 +2,30 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Frontend",
-            "descricao": "Minha categoria",
-            "cor": "#cbd1ff"
+            "titulo": "Frontend",
+            "cor": "#6A01FF",
+            "link_extra": {
+                "text": "Formação de Front End na Alura",
+                "url": "https://www.alura.com.br/cursos-online-front-end"
+            }
         },
         {
             "id": 2,
-            "nome": "Backend",
-            "descricao": "Minha categoria",
-            "cor": "#cbd1ff"
+            "titulo": "Backend",
+            "cor": "#6BD1FF",
+            "link_extra": {
+                "text": "Formação de Front End na Alura",
+                "url": "https://www.alura.com.br/cursos-online-front-end"
+            }
         },
         {
             "id": 3,
-            "nome": "Fullstack",
-            "descricao": "Minha categoria",
-            "cor": "#cbd1ff"
+            "titulo": "Fullstack",
+            "cor": "#6B24FF",
+            "link_extra": {
+                "text": "Formação de Front End na Alura",
+                "url": "https://www.alura.com.br/cursos-online-front-end"
+            }
         }
     ]
 }
