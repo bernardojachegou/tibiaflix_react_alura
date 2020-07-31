@@ -1,0 +1,116 @@
+#########################################################################
+--------------------------INICIANDO-O-PROJETO----------------------------
+#########################################################################
+1. Instalação
+	1.1 Node.js (Ferramenta backend)
+	1.2 Instalação do VSCode
+	1.3 Instalação do Git
+
+2. Inicalização do projeto com React
+	2.1 npx create-react-app nome_projeto (Criação o projeto)
+	2.2 npm start (Teste da aplicação)
+	2.3 Organização dos arquivos (Remoção de arquivos)
+
+3. Criação de componentes
+	3.1 Configuração do reset (css) -> index.css
+	3.2 Configuração pré-elaborada do css (variáveis e fonts)
+	3.3 Criação do componente Menu (Pasta components)
+	3.4 Importação e configuração da logo (assets)
+
+4. Finalização da página Home
+	4.1 Download dos components da Home
+	6.2 Instalação da lib -> styled-components (css in .js)
+
+5. Deploy do Frontend da aplicação no Vercel
+	5.1 Login com GitHub
+	5.2 Import project (Git)
+	5.3 Build do projeto (Pronto!)
+#########################################################################
+-------------------------ESTRUTURAÇÃO-DO-PROJETO-------------------------
+#########################################################################
+1. Explicação sobre o conceito de SPA
+	1.1 Evitar recarregamento completo da página
+	1.2 Estruturação com roteamento (React)
+
+2. Configuração das rotas do projeto
+	2.1 instalação da lib -> react-router-dom
+	2.2 Import dos components e config. das rotas no index.js
+	2.3 Uso do BrowserRouter, Switch e Route path + (components)
+	2.4 Uso da tag [Link to] ao invés da tag [a href]
+
+3. Configuração da página de erro 404
+	3.1 Configuração de rotas inexistentes 
+	3.2 Criação do component Pagina404
+
+4. Criação de template (header & footer)
+	4.1 Importação dos components (Menu & Footer)
+	4.2 Aplicação do Template na página de Vídeo
+
+5. Configuração do footer sempre na parte de baixo
+	5.1 Remoção de components não utilizados
+	5.2 Utilização de React.fragments <>
+	5.3 Configuração do CSS (display flex)
+
+6. Carousel com a lib -> react-slick
+	6.1 Configuração necessária (Arquivos css) [link no html]
+	6.2 Download dos components necessários (Slider)
+	6.3 Configuração do carousel com Slider e SliderItem
+
+7. Início da criação do formulário de categorias
+	7.1 Reutilização do template
+	7.2 Criação básica de um form
+#########################################################################
+-----------------------------CONCEITOS-DO-REACT--------------------------
+#########################################################################
+1. Explicação do useState (Revisar)
+	1.1 Parâms. do useState([]) (Obj, Func) -> (change, setChange)
+	1.2 Exemplo: A função setCHange recebe o valor do input
+	1.3 Diferença entre troca de valores e mudança de estado
+	
+2. Criação do component -> FormField
+	2.1 Reutilização do component alterando parâmetros(type, name..)
+	2.2 Padronização do FormField para várias situações
+#########################################################################
+-------------------------CONFIGURAÇÃO-DO-BACKEND-------------------------
+#########################################################################
+
+1. Padrões de código com a lib -> EsLint (instalação e configuração)
+	1.1 Instalação da lib - > eslint --int*
+	1.2 Instalação da extensão para leitura
+	1.3 Ativação da extensão e visualização de erros
+	1.4 Instalação do prop-types
+	1.5 Correção das configurações do FormField (FormField.propTypes)
+
+2. Finalização das configurações do formulário de categorias
+	2.1 Refatoração do código com o prop-types
+	2.2 Configuração dos parâmetros do form
+	2.3 Configuração do css (Netflix)
+
+3. Configuração do servidor com json-server
+	3.1 Instalação da lib -> json-server (dev depenc)
+	3.2 Criação do arquivo .json (Configuração do arquivo)
+	3.3 Instalação da lib concurrently (rodar simultâneo)
+	3.4 Configuração do run dev (package.json)
+
+4. Utilização do useEffect (Hooks)
+	4.1 Parâms. do useEffect() -> ((obj), [situação])
+	4.2 Utilização de AJAX (fetch + async/await)
+	4.X Recepção: Variável ambiente (URL_TOP)
+	4.X Mudança: arquivo json recebido do backend
+
+5. Deploy do backend no Heroku
+	5.1 Criação do arquivo server.js (npm run server)
+	5.2 Configuração do comando start no package.json (atenção)
+	5.3 New -> Create New APP (Nome)
+	5.4 Conectar reposítório com o backend já configurado (deploy)
+
+*. Cofiguração do EsLint
+	2.1 Opções de configuração: Syntax, problems & code style
+	2.2 Opções de configuração: JavaScript modules (import/export)
+	2.3 Opções de configuração: React
+	2.4 Opções de configuração: Typescript? No
+	2.5 Opções de configuração: Browser
+	2.6 Opções de configuração: Popular style guide
+	2.7 Opções de configuração: Airbnb style
+	2.8 Opções de configuração: config file format? JS
+#########################################################################
