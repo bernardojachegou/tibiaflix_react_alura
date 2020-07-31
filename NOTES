@@ -122,4 +122,8 @@
 	1.4 Configuração da função getAllWithVideos
 
 2. Apresentação dos dados na aplicação (Home)
-	2.1 
+	2.1 Utilização do Template na página
+	2.2 Criação da lógica para a exibição dos dados	
+	2.3 Configuração adicional do padding
+
+3. Configuração da página de novo video
