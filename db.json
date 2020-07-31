@@ -27,5 +27,49 @@
                 "url": "https://www.alura.com.br/cursos-online-front-end"
             }
         }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 2,
+            "categoriaId": 1,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 3,
+            "categoriaId": 1,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 4,
+            "categoriaId": 3,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 5,
+            "categoriaId": 2,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 6,
+            "categoriaId": 3,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+            "id": 7,
+            "categoriaId": 2,
+            "titulo": "SEO com React",
+            "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        }
     ]
 }
