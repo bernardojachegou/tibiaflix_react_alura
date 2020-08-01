@@ -1,48 +1,54 @@
 <h1 align="center">
-<img src="src/assets/img/flixgif.gif" width="600">
+    <img alt="Tibiaflix" title="Tibiaflix" src="src/assets/img/logo2.png" width="300px" />
 </h1>
 
-#  Sobre
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-- A **Knowleed** é uma plataforma de leitura gameficada, onde o usuário ganha pontos através de leitura, escrita e quiz. Ao pontuar ele começa a participar do Ranking. Se ao final de um período ele estiver entre os primeiros colocados, será determinada uma premiação para ele. Também conta com sistemas de fidelização como dias consecutivos de login e níveis que quando atingidos geram uma pontuação bônus. 
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
-- A ideia é resultado da **3ª Edição do MegaHack**, onde a partir do desafio proposto pela Árvore Educação, o time através de uma pesquisa identificou a demanda de um público de ensino médio para melhorar sua experiência do processo de leitura.
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
----
+<br>
 
-# Tecnologias Utilizadas:
+<p align="center">
+  <img title="Tibiaflix" src="src/assets/img/flixgif.gif" width="600px">
+</p>
 
-- 🚀 HTML5
-- 🚀 CSS3
-- 🚀 JavaScript
-- 🚀 Node.js
-- 🚀 React
+## :iphone: Tecnologias
 
----
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-<h1 align="center">
-<img src="public/assets/img/gif.gif">
-</h1>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>React.js</li> 
+  <li>Node.js</li> 
+</ul>
 
-# Como baixar o projeto:
+## :book: Projeto
+
+O projeto Tibiaflix foi elaborado durante a Imersão React da Alura cursos online. Este projeto tem o objetivo de filtrar e catalogar os melhores vídeos produzidos no you tube sobre o MMORPG Tibia.
+
+## 💻 Rodando o projeto:
 
 ```bash
-# clonar o respositório
-$ git clone https://github.com/bernardojachegou/projeto_knowleed.git
+# Clone este repositório
+$ git clone bernardojachegou/tibiaflix_react_alura
+# Entre no repositório
+$ cd tibiaflix_react_alura
 
-# entrar no repositório
-$ cd projeto_knowleed
-
-# instalar as dependências
+# Instale as dependências
 $ npm install
 
-# iniciar o servidor
-$ npm start
+# Inicie o servidor
+$ npm run dev
 
-# acessando o projeto
-- No seu navegador, acesse: localhost: 3000
-
+# rodando na porta 3000
 ```
-
----
-Desenvolvido por © Daniel Meiato, Michel Bernardo, Nayra Cruz, Thiago Silva e William Gonçalves
