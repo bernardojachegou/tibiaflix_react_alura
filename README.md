@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="#iphone-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Funcionamento</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#book-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-layout">Funcionamento</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Tibiaflix foi elaborado durante a Imersão React da Alura cursos online. Este projeto tem o objetivo de filtrar e catalogar os melhores vídeos produzidos no you tube sobre o MMORPG Tibia.
 
-## 💻 Rodando o projeto:
+## :computer: Rodando o projeto:
 
 ```bash
 # Clone este repositório
