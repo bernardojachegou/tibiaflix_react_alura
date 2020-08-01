@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<img src="src/assets/img/flixgif.gif" width="600">
+</h1>
 
-## Available Scripts
+#  Sobre
 
-In the project directory, you can run:
+- A **Knowleed** é uma plataforma de leitura gameficada, onde o usuário ganha pontos através de leitura, escrita e quiz. Ao pontuar ele começa a participar do Ranking. Se ao final de um período ele estiver entre os primeiros colocados, será determinada uma premiação para ele. Também conta com sistemas de fidelização como dias consecutivos de login e níveis que quando atingidos geram uma pontuação bônus. 
 
-### `npm start`
+- A ideia é resultado da **3ª Edição do MegaHack**, onde a partir do desafio proposto pela Árvore Educação, o time através de uma pesquisa identificou a demanda de um público de ensino médio para melhorar sua experiência do processo de leitura.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Tecnologias Utilizadas:
 
-### `npm test`
+- 🚀 HTML5
+- 🚀 CSS3
+- 🚀 JavaScript
+- 🚀 Node.js
+- 🚀 React
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+<h1 align="center">
+<img src="public/assets/img/gif.gif">
+</h1>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Como baixar o projeto:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+# clonar o respositório
+$ git clone https://github.com/bernardojachegou/projeto_knowleed.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# entrar no repositório
+$ cd projeto_knowleed
 
-### `npm run eject`
+# instalar as dependências
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# iniciar o servidor
+$ npm start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# acessando o projeto
+- No seu navegador, acesse: localhost: 3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+Desenvolvido por © Daniel Meiato, Michel Bernardo, Nayra Cruz, Thiago Silva e William Gonçalves
