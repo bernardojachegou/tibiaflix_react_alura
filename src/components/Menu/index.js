@@ -1,19 +1,20 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo2.png';
-import Button from '../Button';
-import './Menu.css'
+import Button from '../Button/styles';
+import { MenuStyle, FlixLogo } from './styles';
 
 function Menu() {
-    return (
-        <nav className="Menu">
-            <Link to="/">
-                <img className="Logo" src={Logo} alt="Logo do TibiaFlix" />
-            </Link>
-            <Button as={Link} className="ButtonLink" to="cadastro/video">
-                Novo vídeo
-            </Button>
-        </nav>
-    )
+  return (
+    <MenuStyle>
+      <Link exact to="/">
+        <FlixLogo className="Logo" src={Logo} alt="Logo do TibiaFlix" />
+      </Link>
+      <Button as={Link} className="ButtonLink" to="cadastro/video">
+        Novo vídeo
+      </Button>
+    </MenuStyle>
+  );
 }
-export default Menu
+export default Menu;

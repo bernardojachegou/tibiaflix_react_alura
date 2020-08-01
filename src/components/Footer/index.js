@@ -12,7 +12,7 @@ function Footer() {
         Orgulhosamente criado por
         {' '}
         <a href="https://www.linkedin.com/in/bernardojachegou/">
-          Michel Bernardo 
+          Michel Bernardo
         </a>
         {' '}
         durante a

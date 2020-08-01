@@ -12,11 +12,41 @@
   --white: #FFFFFF;
   --frontEnd: #0000ff;
   --backEnd: #ffff00;
+  --background:rgba(0,0,0,0.5); 
 }
 
 html, body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  --bodyPaddingTop: 94px;
+  padding-top: var(--bodyPaddingTop);
+}
+
+@media (max-width: 800px) {
+  .Menu {
+      height: 40px;
+      justify-content: center;
+  }
+  body {
+      --bodyPaddingTop: 40px;
+      padding-top: var(--bodyPaddingTop);
+  }
+  .Logo {
+    max-width: 105px;
+  }
+  a.ButtonLink {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+  }
 }
 
 a {
@@ -27,4 +57,33 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+}
+
+h1 {
+  color: var(--backEnd);
+  text-shadow: 1px 2px black;
+}
+
+ul h2 {
+  color: var(--primary);
+  text-shadow: 1px 2px black;
+  margin: 8px 0px;
+}
+
+h2 {
+  color: var(--backEnd);
+  text-shadow: 2px 2px black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  color: var(--backEnd);
+  text-shadow: 1px 2px black;
+}
+ul li::before {
+  display: inline-block;
+  margin-right: 0.2rem;
 }

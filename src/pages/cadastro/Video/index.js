@@ -4,7 +4,7 @@ import { Link, useHistory } from 'react-router-dom';
 import Template from '../../../components/Template';
 import FormField from '../../../components/FormField';
 import useForm from '../../../hooks/useForm';
-import Button from '../../../components/Button';
+import Button from '../../../components/Button/styles';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
 
@@ -77,9 +77,9 @@ function CadastroVideo() {
         <Button type="submit">Cadastrar</Button>
       </form>
 
-      <Link to="/cadastro/categoria">
-        Cadastra Categoria
-      </Link>
+      <Button as={Link} to="/cadastro/categoria">
+        Cadastrar Nova Categoria
+      </Button>
     </Template>
   );
 }

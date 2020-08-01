@@ -19,6 +19,9 @@ export const Title = styled.h3`
 `;
 
 export const ExtraLink = styled.a`
+  font-weight: bold;
+  font-size: 28px;
+  text-shadow: 2px 1px black;
   margin-left: 16px;
   text-decoration: none;
   transition: opacity .3s;

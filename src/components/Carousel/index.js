@@ -1,3 +1,5 @@
+/* eslint-disable prefer-destructuring */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
@@ -18,11 +20,11 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
+          {categoryExtraLink && (
+            <ExtraLink style={{ color: categoryColor || 'red' }} href={categoryExtraLink.url} target="_blank">
+              {categoryExtraLink.text}
             </ExtraLink>
-          }
+          )}
         </>
       )}
       <Slider>

@@ -1,9 +1,8 @@
 /* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import Template from '../../../components/Template';
 import FormField from '../../../components/FormField';
-import Button from '../../../components/Button';
+import Button from '../../../components/Button/styles';
 import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
@@ -77,6 +76,7 @@ function CadastroCategoria() {
       </form>
 
       <ul>
+        <h2>Categorias existentes:</h2>
         {categorias.map((categoria) => (
           <li key={`${categoria.titulo}`}>
             {categoria.titulo}
@@ -84,9 +84,6 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para a home
-      </Link>
     </Template>
   );
 }
