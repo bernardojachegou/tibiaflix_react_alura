@@ -145,6 +145,4 @@
 2. Criar página de rota inexistente;
 3. Aplicar validações no cadastro categorias/filmes;
 4. Aplicar conversão de Idioma Português/Inglês;
-5. Adição do componente de carregamento;
-6. Adição do componente de página inexistente;
-7. Reformulação do menu (William);
+
