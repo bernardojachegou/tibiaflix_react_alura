@@ -11,7 +11,6 @@ function Loading() {
       <LoadingIcon>
         <div className="iconCircle"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
       </LoadingIcon>
-      <h1>Carregando</h1>
     </LoadingScreen>
   );
 }
