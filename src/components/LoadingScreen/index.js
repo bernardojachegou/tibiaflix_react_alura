@@ -13,7 +13,6 @@ function Loading() {
       </LoadingIcon>
       <h1>Carregando</h1>
     </LoadingScreen>
-
   );
 }
 
