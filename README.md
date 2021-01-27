@@ -30,11 +30,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Tibiaflix foi elaborado durante a Imersão React da Alura cursos online. Este projeto tem o objetivo de filtrar e catalogar os melhores vídeos produzidos no you tube sobre o MMORPG Tibia.
 
-## :computer: Funcionamento:
+## :computer: Funcionamento
 
 ```bash
 # Clone este repositório
 $ git clone bernardojachegou/tibiaflix_react_alura
+
 # Entre no repositório
 $ cd tibiaflix_react_alura
 
@@ -44,5 +45,5 @@ $ npm install
 # Inicie o servidor
 $ npm run dev
 
-# rodando na porta 3000
+$ rodando na porta 3000
 ```
