@@ -12,45 +12,49 @@ function CadastroVideo() {
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
-  const { handleChange, valores } = useForm({
-    titulo: '',
-    url: '',
-    categoria: '',
-  }, []);
+  const { handleChange, valores } = useForm(
+    {
+      titulo: '',
+      url: '',
+      categoria: '',
+    },
+    []
+  );
 
   useEffect(() => {
-    categoriasRepository
-      .getAll()
-      .then((categoriasFromServer) => {
-        setCategorias(categoriasFromServer);
-      });
+    categoriasRepository.getAll().then((categoriasFromServer) => {
+      setCategorias(categoriasFromServer);
+    });
   }, []);
 
   return (
     <Template>
       <h1>Cadastro de vídeos</h1>
 
-      <form onSubmit={(event) => {
-        event.preventDefault();
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
 
-        // eslint-disable-next-line max-len
-        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === valores.categoria);
+          // eslint-disable-next-line max-len
+          const categoriaEscolhida = categorias.find(
+            (categoria) => categoria.titulo === valores.categoria
+          );
 
-        // eslint-disable-next-line no-console
-        console.log('categoriaEscolhida', categoriaEscolhida);
+          // eslint-disable-next-line no-console
+          console.log('categoriaEscolhida', categoriaEscolhida);
 
-        videosRepository.create({
-          titulo: valores.titulo,
-          url: valores.url,
-          categoriaId: 1,
-
-        })
-          .then(() => {
-            // eslint-disable-next-line no-console
-            console.log('Cadastrou com sucesso!');
-            history.push('/');
-          });
-      }}
+          videosRepository
+            .create({
+              titulo: valores.titulo,
+              url: valores.url,
+              categoriaId: categoriaEscolhida.id,
+            })
+            .then(() => {
+              // eslint-disable-next-line no-console
+              console.log('Cadastrou com sucesso!');
+              history.push('/');
+            });
+        }}
       >
         <FormField
           label="Título do vídeo"
